@@ -8,7 +8,7 @@ import asyncio
 import random
 
 
-from api import api
+from new_api import api
 
 os.chmod('venv/lib/python3.11/site-packages/ffmpeg', 0o755)
 

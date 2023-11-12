@@ -10,9 +10,9 @@ import random
 
 from new_api import api
 
-#os.chmod('venv/lib/python3.11/site-packages/ffmpeg', 0o755)
+os.chmod('venv/lib/python3.11/site-packages/ffmpeg', 0o755)
 
-#os.environ["SSL_CERT_FILE"] = certifi.where()
+os.environ["SSL_CERT_FILE"] = certifi.where()
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents)
